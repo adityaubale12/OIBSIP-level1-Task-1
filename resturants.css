@@ -1,0 +1,56 @@
+
+
+.restaurants-bg-container {
+    display: flex;
+    background-image: url('./2.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.restaurants-main {
+    color: black;
+    font-family: Bree Serif;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.restaurants-paragraph {
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+}
+
+.card-container {
+    text-align: center;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 25px;
+    background-size: cover;
+    position: relative;
+    top: 150px;
+}
+
+.button {
+    height: 36px;
+    width: 148px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-width: 0px;
+    border-style: solid;
+    background-color: red;
+    color: white;
+
+}
+
+.unorder-list {
+    list-style-type: disc;
+    color: white;
+    font-size: 20px;
+    font-family: Bree Serif;
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
